@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Using Bootstrap framework. -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+
+
+    <!-- Using Google Fonts -->
+    <!-- Pacifico -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Alef -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alef&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Using my CSS -->
+    <style type="text/css">
+        @import "style.css";
+    </style>
+
+    <meta charset="UTF-8">
+    <title>Lok Yeung --Welcome to my home page</title>
+
+</head>
+<body><br><br><br>
+
+<header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="col-lg-3"></div>
+            <img src="Logo.png" width="188" height="48" alt=""/>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" i>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="" onclick="topFunction()"><b>Home</b></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#introWord"><b>About Me</b></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#introWord"><b>Education</b></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#MySkill"><b>My skills
+                        </b></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="https://www.instagram.com/lokyeung_ytl_/">
+                        <img src="igLogo.png" width="40" height="40" alt="">
+                    </a>
+
+                    <a href="https://www.comp.polyu.edu.hk/">
+                        <img src="PolyU.png" width="40" height="40" alt="">
+                    </a>
+                    <hr>
+                </form>
+                <hr/>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+<section id="intro" class="d-flex align-items-center jumbotron">
+    <div class="container">
+        <div class="row">
+            <div id="introWord" class="col-md-4">
+                <h4>A Creative Web Developer </h4>
+                <h2>HI, I am <strong>Lok</strong> <br>This is my favorite work.</h2> <br>
+                <a href="mailto:20021097D@connect.polyu.hk" class="button" role="button" aria-pressed="true">Email
+                    me</a>
+            </div>
+            <div class="col-lg-5 order-1 order-lg-2 hero-img">
+                <img src="hero-img.svg" class="img-fluid animated" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="MyInfo">
+    <div class="container bg-light rounded-lg">
+        <div class="row bbg-transparent">
+            <div class="col-lg-5">
+                <img src="Self.jpg" width="353" height="370" class="img-fluid animated" alt="">
+            </div>
+
+            <div class="col-lg8">
+                <hr>
+                <h5>My Intro</h5>
+                <h2 class="mb-3" style="font-size: 28px;">About Me</h2>
+                <p>I am a theist introvert, diseased with saying no, searching for the right path.</p>
+                <b>Name:</b> <span> YEUNG Tsz Lung (Lok)</span><br>
+                <b>Date of birth:</b><span> May 28</span><br>
+                <b>Address:</b><span> Hong Kong Polytechnic University, Hung Hom,
+                    Kowloon, Hong Kong</span> <br>
+                <b>Email:</b> <span>lokyeungcc@outlook.com</span> <br>
+                <b>Phone:</b> <span>+852 2180 0000</span> <br><br>
+
+                <h5>Education</h5>
+                <h6><span class="badge badge-secondary"> 2021 </span> Bachelor of Science (Honours) in Information
+                    Security</h6>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <br>
+</section>
+
+
+<section id="MySkill">
+    <div class="section-title">
+        <h2>My skills</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <div id="Programming" class="row">
+            <div id="html" class="col-lg-4 mb-4">
+                <div class="bg-white rounded-lg shadow p-4">
+                    <h2 class="h5 font-weight-bold text-center mb-4">HTML/CSS/Javascript</h2>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                             style="width: 98%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">98%★★★
+                        </div>
+                    </div>
+                    <div class="row text-center mt-4">
+                        <div class="col-6 border-right">
+                            <div class="h4 font-weight-bold mb-2">38%</div>
+                            <span class="small text-gray">Last week</span>
+                        </div>
+                        <div class="col-6">
+                            <div class="h4 font-weight-bold mb-2">50%</div>
+                            <span class="small text-gray">Last month</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="C++" class="col-lg-4 mb-4">
+                <div class="bg-white rounded-lg shadow p-4">
+                    <h2 class="h5 font-weight-bold text-center mb-4">C++</h2>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                             style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%★★
+                        </div>
+                    </div>
+                    <div class="row text-center mt-4">
+                        <div class="col-6 border-right">
+                            <div class="h4 font-weight-bold mb-2">43%</div>
+                            <span class="small text-gray">Last week</span>
+                        </div>
+                        <div class="col-6">
+                            <div class="h4 font-weight-bold mb-2">36%</div>
+                            <span class="small text-gray">Last month</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Java" class="col-lg-4 mb-4">
+                <div class="bg-white rounded-lg shadow p-4">
+                    <h2 class="h5 font-weight-bold text-center mb-4">Java</h2>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                             style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80">80%★
+                        </div>
+                    </div>
+                    <div class="row text-center mt-4">
+                        <div class="col-6 border-right">
+                            <div class="h4 font-weight-bold mb-2">19%</div>
+                            <span class="small text-gray">Last week</span>
+                        </div>
+                        <div class="col-6">
+                            <div class="h4 font-weight-bold mb-2">14%</div>
+                            <span class="small text-gray">Last month</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<br>
+<br>
+<br>
+<br>
+
+<footer id="MyFooter" class="card-footer bg-dark">
+    <div class="row">
+        <p>I love COMP3421 :)</p>
+        <img src="duppic.png" class="center" width="40" height="40" alt="">
+        <p class="justify-content-lg-center">Mid-Project@2021</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
